@@ -23,20 +23,18 @@
     position: absolute;
     width:40px;
     height: 40px;
-    background: #d70d2f94;
-    color: white;
+    color: #d70d2f94;
     top: 50%;
     transform: translateY(-50%);
-    font-size:30px;
+    font-size:32px;
     font-weight:bold;
-    font-family: monospace;
+    font-family: cursive;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 10px;
     cursor: pointer;
 }
 .slider__btn:hover{
-    background: #fff;
-    color:black;
+    color:rgb(79, 49, 49);
 }
 .slider__btn--left{
  left:10px;
