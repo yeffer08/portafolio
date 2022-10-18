@@ -201,6 +201,7 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
+	
 
 	br.clear {
 		clear: both;
@@ -213,6 +214,17 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 	}
+
+	.Lenguajes{
+		display: flex;
+		flex-direction: column;
+		height: 226px;
+		flex-wrap: wrap;
+
+	}
+	
+
+
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -1752,18 +1764,27 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 78px;
-			height: 78px;
-			background: #f00;
+			width: 80px;
+			height: 80px;
+			background: rgba(0, 0, 0, 0.05);;
 			border-radius:40px;
 		}
 
 			.image.avatar48 img {
-				width: 78px;
-				height: 78px;
-				border-radius:40px;
+				width: 98%;
+				height: auto;
+				border-radius:20px;
+				
 			}
-
+		.lenguajes{
+			display: flex;
+			width: 100%;
+		}
+		.list img{
+			width: 100%;
+			height: 350px;
+			border-radius:20px;
+		}
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2292,6 +2313,7 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+			
 	}
 
 /* Normal */
@@ -2376,6 +2398,7 @@ input, select, textarea {
 			}
 
 	}
+	
 
 /* Narrower */
 
@@ -2573,8 +2596,18 @@ input, select, textarea {
 				#main section.cover {
 					padding: 4em 0;
 				}
+				.lenguajes{
+					display: initial;
+					
+				}
+				.list img{
+					width: 80%;
+					height: 80%;
+					border-radius:20px;
+				}
 
 	}
+	
 
 /* Mobile */
 
